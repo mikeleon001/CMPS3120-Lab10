@@ -1,0 +1,54 @@
+Running tests...
+
+--- Test 1 ---
+
+==============================================
+Text: "AAAAAAAAAAAAAAAAAB"
+Pattern: "AAAAB"
+==============================================
+Shift Table:
+-----------
+'A': 1
+'B': 5
+Default: 5
+-----------
+Number of matches found: 1
+Matches located at positions: 13
+Total number of character comparisons: 18
+
+--- Test 2 ---
+
+==============================================
+Text: "THIS IS A TEST TEXT"
+Pattern: "TEST"
+==============================================
+Shift Table:
+-----------
+'T': 3
+'E': 2
+'S': 1
+Default: 4
+-----------
+Number of matches found: 1
+Matches located at positions: 10
+Total number of character comparisons: 11
+
+--- Test 3 ---
+
+==============================================
+Text: "THIS IS A SIMPLE EXAMPLE"
+Pattern: "EXAMPLE"
+==============================================
+Shift Table:
+-----------
+'E': 6
+'X': 5
+'A': 4
+'M': 3
+'P': 2
+'L': 1
+Default: 7
+-----------
+Number of matches found: 1
+Matches located at positions: 17
+Total number of character comparisons: 15
